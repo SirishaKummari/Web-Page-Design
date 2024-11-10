@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .top{
+        background-color: rgb(221, 144, 43);
+        margin: 0;
+       height: 35px;
+       
+    }
+    .navbar{
+        background-color: rgb(38, 35, 180);
+        font-size: 20px;
+        font-style: oblique;
+        color: aliceblue;
+        height: 50px;
+        padding: 5px;
+        display: block;
+        align-content: center;
+        
+    }
+    .face{
+        width: 25px;
+        height: 24px;
+        float: right;
+        margin-right: 300px;
+        display: flex;   
+        gap: 40px;
+    }
+
+   ul{
+    list-style-type: none;
+   }
+
+   li{
+    display: inline-block;
+   }
+
+    li:hover{
+        color: red;
+    }
+
+    .menu{
+        background-color: rgb(143, 204, 229);
+        font-size: 20px;
+        color: rgb(11, 11, 11);
+        height: 60px;
+        padding-top: 2px;
+        display: block;
+        align-content: center;
+        font-style: normal;
+    }
+
+    .siri{
+        font-style: normal;
+        color: rgb(182, 78, 26);
+        font-size: xx-large;
+        font-weight: bold;
+        }
+        
+        ul i{
+            color: black;
+            height: 100px;
+            width: 30px;
+        }
+       
+    .btn{
+            border-radius: 5px;
+            background-color: rgb(159, 70, 10);
+            color: white;
+            height: 30px;
+            width: 80px;
+            font-size: large;
+            margin-left: 200px;
+            position: absolute;
+            left: 1100px;
+            top: 143px;
+            border: 1px solid rgb(159, 70,10);
+        }
+        
+    .Details:hover{
+        .form{
+            display: block;
+        }
+
+    }
+
+        .fill{
+            color: red;
+        }
+        .form{
+            background-color: aliceblue;
+            position: absolute;
+            display: none;
+            list-style: none;
+            top: 190px;
+            text-align: center;
+            border: 3px solid whitesmoke;
+            padding: 20px 100px 30px 100px;
+            font-size: large;
+            right: 100px;
+            box-shadow: 30px 30px 30px whitesmoke;
+        }
+
+        .form input{
+            width: 230px;
+            height: 25px;
+        }
+
+        .form select{
+            width: 230px;
+            height: 25px;
+            border-bottom: 3px solid lightcoral;
+        }
+
+        .form button{
+            width: 230px;
+            height: 25px;
+            border-radius: 5px;
+            background-color: green;
+            color: white;
+        }
+
+        .form button:hover{
+            background-color: chocolate;
+        }
+
+        .list{
+            padding-left: 100px;
+            display: inline-block;
+            align-content: center;
+            font-size: larger;
+            position: relative;
+            word-spacing: 150px;
+        }
+
+        .body{
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.pexels.com/search/study/');
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 100vh; 
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+        h1 {
+            font-size: 36px;
+            
+        }  
+
+        .image{
+            background-image:url("https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/content/edu/art/coaching-77c8470c78.jpg");
+            height: 700px;
+            width: 100%;
+            background-size: cover;
+            animation:siri 15s infinite;
+
+        }
+
+        @keyframes siri{
+            30%{
+                background-image:url("https://thumbs.dreamstime.com/b/female-teacher-teaching-high-school-students-classroom-338596593.jpg");
+            }
+            20%{
+                background-image:url("https://ashokainstitute.com/assets/images/banners1.jpg");
+            }
+            40%{
+                background-image:url("https://careerguidance.vjrc.ac.in/wp-content/uploads/2022/11/choosing-a-coaching-institute.jpg");
+            }
+            20%{
+                background-image:url("https://llbcoaching.in/wp-content/uploads/2017/03/01_classic.jpg");
+            }
+        }
+
+        .section{
+            position: absolute;
+            top: 600px;
+            right: 150px;
+            color: rgb(20, 23, 23);
+        }
+
+        .btn1{
+            background-color: lightseagreen;
+            padding: 10px;
+            color: white;
+            border: 1px solid lightseagreen;
+            border-radius: 5px;
+        }
+
+        .key{
+            margin-top: 50px;
+        }
+
+        .block{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 20%;
+            padding-left:  60px;
+        }
+
+        .block1{
+            background-color: rgb(2, 157, 129);
+            color: white;
+            height: 150px;
+            width: 240px;
+            border-radius: 20px;
+            padding: 20px;
+            left: 60px;
+        }
+
+        .block1 i{
+            border-radius: 50%;
+            position:absolute;
+            top:1160px;
+            left:210px;
+            color: black;
+            padding: 20px;
+            height: 20px;
+            width: 20px;
+            background-color: white;
+        }
+
+        .block1 i:hover{
+            background-color: rgb(74, 181, 50)
+        }
+
+        .block1:hover{
+            background-color: white;
+            color:black;
+            box-shadow: 10px 20px 10px whitesmoke;
+        }
+
+        .block2{
+            background-color: rgb(2, 157, 129);
+            color: white;
+            height: 150px;
+            width: 240px;
+            border-radius: 20px;
+            padding: 20px;
+            left: 60px;
+        }
+
+        .block2 i{
+            border-radius: 50%;
+            position:absolute;
+            top:1160px;
+            left:550px;
+            color: black;
+            padding: 20px;
+            height: 20px;
+            width: 20px;
+            background-color: white;
+        }
+
+        .block2 i:hover{
+            background-color: rgb(74, 181, 50)
+        }
+
+        .block2:hover{
+            background-color: white;
+            color:black;
+            box-shadow: 10px 20px 10px whitesmoke;
+        }
+
+        .block3{
+            background-color: rgb(2, 157, 129);
+            color: white;
+            height: 150px;
+            width: 240px;
+            border-radius: 20px;
+            padding: 20px;
+            left: 60px;
+        }
+
+        .block3 i{
+            border-radius: 50%;
+            position:absolute;
+            top:1160px;
+            right:520px;
+            color: black;
+            padding: 20px;
+            height: 20px;
+            width: 20px;
+            background-color: white;
+        }
+
+        .block3 i:hover{
+            background-color: rgb(74, 181, 50)
+        }
+
+        .block3:hover{
+            background-color: white;
+            color:black;
+            box-shadow: 10px 20px 10px whitesmoke;
+        }
+
+        .block4{
+            background-color: rgb(2, 157, 129);
+            color: white;
+            height: 150px;
+            width: 240px;
+            border-radius: 20px;
+            padding: 20px;
+            left: 60px;
+        }
+
+        .block4 i{
+            border-radius: 50%;
+            position:absolute;
+            top:1160px;
+            right:180px;
+            color: black;
+            padding: 20px;
+            height: 20px;
+            width: 20px;
+            background-color: white;
+        }
+
+        .block4 i:hover{
+            background-color: rgb(74, 181, 50)
+        }
+
+        .block4:hover{
+            background-color: white;
+            color:black;
+            box-shadow: 10px 20px 10px whitesmoke;
+        }
+
+        .head{
+            display:grid;
+            grid-template-columns:30% 30% 30%;
+            
+        }
+
+        .head1{
+            width:350px;
+            height:400px;
+            text-align:center;
+            margin-left:130px;
+            box-shadow:10px 10px 10px black;
+        }
+        .head1 h3{
+            background-color: rgb(76, 202, 177);
+            padding:10px;
+
+        }
+
+        .head h4{
+            color: black;
+        }
+
+        .head p{
+            color: black;
+            
+        }
+        .head1 button{
+            padding: 10px;
+            background-color: rgb(76, 202, 177);
+            border:1px solid yellowgreen;
+            border-radius:10px;
+            
+        }
+        .head i{
+            color:gold;
+            font-size:20px;
+            height: 20px;
+            
+        }
+
+        .head2{
+            width:350px;
+            height:400px;
+            text-align:center;
+            margin-left:130px;
+            box-shadow:10px 10px 10px black;
+        }
+        .head2 h3{
+            background-color: rgb(76, 202, 177);
+            padding:10px;
+
+        }
+        .head2 button{
+            padding: 10px;
+            background-color: rgb(76, 202, 177);
+            padding:10px;;
+            border:1px solid yellowgreen;
+            border-radius:10px;
+        
+        }
+
+        .head3{
+            width:350px;
+            height:400px;
+            text-align:center;
+            margin-left:130px;
+            box-shadow:10px 10px 10px black;
+        }
+        .head3 h3{
+            background-color: rgb(76, 202, 177);
+            padding:10px;
+
+        }
+        .head3 button{
+            padding: 10px;
+            background-color: rgb(76, 202, 177);
+            padding:10px;;
+            border:1px solid yellowgreen;
+            border-radius:10px;
+        
+        }
+
+        .head4{
+            width:350px;
+            height:400px;
+            text-align:center;
+            margin-left:130px;
+            box-shadow:10px 10px 10px black;
+        }
+        .head4 h3{
+            background-color: rgb(76, 202, 177);
+            padding:10px;
+
+        }
+        .head4 button{
+            padding: 10px;
+            background-color: rgb(76, 202, 177);
+            padding:10px;;
+            border:1px solid yellowgreen;
+            border-radius:10px;
+        
+        }
+
+        .head5{
+            width:350px;
+            height:400px;
+            text-align:center;
+            margin-left:130px;
+            box-shadow:10px 10px 10px black;
+        }
+        .head5 h3{
+            background-color: rgb(76, 202, 177);
+            padding:10px;
+
+        }
+        .head5 button{
+            padding: 10px;
+            background-color: rgb(76, 202, 177);
+            padding:10px;;
+            border:1px solid yellowgreen;
+            border-radius:10px;
+        
+        }
+
+        .head6{
+            width:350px;
+            height:400px;
+            text-align:center;
+            margin-left:130px;
+            box-shadow:10px 10px 10px black;
+        }
+        .head6 h3{
+            background-color: rgb(76, 202, 177);
+            padding:10px;
+
+        }
+        .head6 button{
+            padding: 10px;
+            background-color: rgb(76, 202, 177);
+            padding:10px;;
+            border:1px solid yellowgreen;
+            border-radius:10px;
+        
+        }
+
+        .head a:hover{
+            color:rgb(202, 71, 136)
+        }
+        .head h3:hover{
+            background-color: white;
+        }
+
+        .footer{
+            display:grid;
+            grid-template-columns:25% 25% 25% 25%;
+            background-color: rgb(16, 16, 16);
+            padding-top:50px;
+            width:100%;
+            height:280px;
+            color: white;
+        }
+
+       
+        .foot2{
+            padding-left:50px;
+
+        }
+
+        .foot3{
+            padding-left:50px;
+        }
+        .foot4{
+            padding-left:50px;
+        }
+        
+        .foot1 p{
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+
+        .foot4 i{
+            padding-left: 10px;
+            font-size: 20px;
+            background-color:rgb(255, 255, 255);
+            color:black;
+            padding:8px;
+            border-radius:10px;
+            height: 20px;
+            width: 18px;
+        }
+        
+        .foot4 input{
+            width: 190px;
+            height: 30px;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            padding-left:20px;
+            
+        }
+        
+        .foot1 h2{
+            position:absolute;
+            left:70px;
+            top:2390px;
+        }
+
+        .foot2 h2{
+            position:absolute;
+            left:460px;
+            top:2390px;
+        } 
+
+        .foot2 p{
+            margin-left: 5px;
+            
+        }
+        .foot3 h2{
+            position:absolute;
+            left:810px;
+            top:2390px;
+        } 
+
+        .foot3 p{
+            padding-left: 5px;
+        }
+        .foot4 h2{
+            position:absolute;
+            left:1180px;
+            top:2410px;
+        }
+
+       
+       
+
+</style>
+<body>
+    <div class="top">
+        <h2><marquee behavior="alternate">Admissions Open</marquee></h2>
+    </div>
+    <div class="navbar">
+        <ul class="mail">    
+    <li><span style="margin-left:20px">Email:ganesh@gmail.com</span></li>
+    <li><span style="margin-left:100px">contact:91+ 1234567891</span></li>
+    <div class="face">
+   <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/accounts/login/"> <i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558715_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.1007768&mcid=6844056167778418689&cid=&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjslIzRpYlC7Dai6ULimsN6p-BD4SbRe2F0LqGgYwG0JBUsh1T8OiGEaAkfLEALw_wcB&gclsrc=aw.ds"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+            </main>
+        </ul>
+    </div>
+
+    <div class="menu">
+        <ul>
+        <i class="fa-solid fa-building-columns"></i>
+        <span class="siri"style="margin-left:5px">Siri Technologies</span>
+        <div class="list">
+        <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Courses</li>
+        <li>Contact</li>
+        </ul>
+    </div>
+    <div class="Details">
+        <main><button class="btn">Enquiry</button></main>
+        <ul class="form">
+            <li class="fill"><u>Fill Your Details</u></li><br><br><br>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+            <input type="email" placeholder="Enter Your Email"><br><br>
+            <input type="Number" placeholder="Enter Your Mobile No."><br><br>
+            <select>
+                <option value="Select Course">Select Course</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JAVASCRIPT">JAVASCRIPT</option>
+                <option value="REACT">REACT</option>
+            </select>
+            <br><br>
+            <button>Submit</button>
+        </ul>
+    </div>
+        <main class="image"></main>
+        <main class="section">
+            <h1><b>Siri Technologies</b></h1>
+            <h4><b>Best Training Institute</b></h4>
+            <b><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores pariatur suscipit <br>reprehenderit deserunt minus repellendus eius numquam dicta excepturi unde officia.<br> Eos quasi placeat voluptatum quos? Lorem ipsum dolor sit, amet co praesentium <br>quis eligendi corrupti eaque,
+                  provident eveniet iusto repellat, ratione aperiam</p></b>
+                  <button class="btn1"><a href="detail.html">Apply Online</a></button></main>
+
+        </main>
+        <br><br>
+    <div class="key">
+            <center><h3  style="font-size:20px; word-spacing:5px; color:rgb(106, 3, 3)"> KEY FEATURES</h3>
+                <p style="color:gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed earum labore adipisci dolorem
+                     omnis quisquam? Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.dolorem omnis quisquam?  </p></center>
+    </div>
+        <br><br>
+    <div class="block">
+            <main class="block1">
+                <i class="fa-solid fa-building-columns" height="30px" ,weight="30px" ></i>
+                <h5><u>Well Equipped classes</u></h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorem omnis quisquam?</p>
+                </main>
+            <main class="block2">
+                <i class="fa-solid fa-clock" height="30px" ,weight="30px"></i>
+                <h5>24* 7 Access</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorem omnis quisquam?</p>
+            </main>
+            <main class="block3">
+                <i class="fa-solid fa-book-open-reader" height="30px" ,weight="30px"></i>
+                <h5>Quality Education</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorem omnis quisquam?</p>
+            </main>
+            <main class="block4">
+                <i class="fa-solid fa-people-roof" height="30px" ,weight="30px"></i>
+                <h5>Expert Faculty</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorem omnis quisquam?</p>
+                </main>
+    </div>
+        <br><br>
+    <div class="course">
+            <center><h3  style="font-size:20px; word-spacing:5px; color:rgb(106, 3, 3)"> COURSES</h3>
+                <p style="color:gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed earum labore adipisci dolorem
+                     omnis quisquam? Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.dolorem omnis quisquam?  </p></center>
+    </div>
+    <div class="head">
+            <main class="head1">
+            <h3>Full Stack Development</h3>
+            <h4>Cras Ultricies lacus consectetur, consectetur</h4>
+            
+            <h6 class="star"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, rerum minima laboriosam quas eligendi quasi!</p>
+            <br>
+            <button><a href="detail.html">Apply Online</a></button></main>
+
+            <main class="head2">
+                <h3>Front End Development</h3>
+                <h4>Cras Ultricies lacus consectetur, consectetur</h4>
+                
+                <h6 class="star"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+               
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, rerum minima laboriosam quas eligendi quasi!</p>
+                <br>
+                <button><a href="detail.html">Apply Online</a></button></main>
+
+            <main class="head3">
+                <h3>Back End Development</h3>
+                <h4>Cras Ultricies lacus consectetur, consectetur</h4>
+                
+                <h6 class="star"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+                
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, rerum minima laboriosam quas eligendi quasi!</p>
+                <br>
+                <button><a href="detail.html">Apply Online</a></button></main>
+
+            <main class="head4">
+                <h3>Data Science</h3>
+                <h4>Cras Ultricies lacus consectetur, consectetur</h4>
+                
+                <h6 class="star"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+            
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, rerum minima laboriosam quas eligendi quasi!</p>
+                <br>
+                <button><a href="detail.html">Apply Online</a></button></main>
+                <main class="head5">
+                <h3>AWS</h3>
+                <h4>Cras Ultricies lacus consectetur, consectetur</h4>
+                
+                <h6 class="star"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+                
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, rerum minima laboriosam quas eligendi quasi!</p>
+                <br>
+                <button><a href="detail.html">Apply Online</a></button></main>
+
+            <main class="head6">
+                <h3>Devops</h3>
+                <h4>Cras Ultricies lacus consectetur, consectetur</h4>
+                
+                <h6 class="star"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+                
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, rerum minima laboriosam quas eligendi quasi!</p>
+                <br>
+                <button><a href="detail.html">Apply Online</a></button></main>
+            </div>
+        <br><br>
+    <div class="footer">
+            <main class="foot1">
+                <h2><i class="fa-solid fa-graduation-cap"></i>Siri Technologies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed earum labore adipisci dolorem omnis quisquam? Lorem ipsum dolor sit amet consectetur adipisicing elit.dolorem omnis quisquam? </p></main>
+
+                <main class="foot2">
+                    <h2>Our Services</h2>
+                    <p>Mobile Application Design<br><br>
+                     Wed Application design<br><br>
+                     Websites Design<br><br>
+                    Web User Interface Design<br><br>
+                   Web UX Design And Research<br><br>
+                   Theam Development Design</p></main>
+                
+            <main class="foot3">
+            <h2>Head Office</h2>
+                <p>1/2,Marathahalli,Bengaluru <br>
+                    Karnataka-560037, <br>
+                    Phone: +91 9550623376 <br>
+                    Email:lakshmiprasannakavuri05@gmail.com 
+                        <br>
+                        <h4>Office Time:<span style="font-style:normal">10 AM - 6 PM</span></h4></p>
+                            
+
+                </main>
+                <main class="foot4">
+                    <h2>Subscribe US</h2> 
+                    <br><br>
+
+                   <a href=><input type="email" placeholder="jyothikuruva400@gmail.com"></a> <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"><i class="fa-solid fa-paper-plane"></i></a>
+                    <br><br>
+                    <div>
+                      <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook"></i></a>
+                       <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-x-twitter"></i></a>
+                       <a href="https://www.instagram.com/accounts/login/"> <i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558715_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.1007768&mcid=6844056167778418689&cid=&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjslIzRpYlC7Dai6ULimsN6p-BD4SbRe2F0LqGgYwG0JBUsh1T8OiGEaAkfLEALw_wcB&gclsrc=aw.ds"><i class="fa-brands fa-linkedin"></i></a>
+                    </main>
+    </div>
+    
+</body>
+</html>
